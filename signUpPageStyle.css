@@ -1,0 +1,141 @@
+
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: "Poppins", sans,serif;
+}
+body{
+	background-color: white;
+	background-attachment: fixed;
+}
+.fullpage{
+	display:grid;
+	height: 650px;
+	width: 1350px;
+	place-items:center;
+	background-image:url('images/finalLogin.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	object-fit:cover;
+
+}
+.wrapper{
+	width:500px;
+	background:#fff;
+	box-shadow:0px, 15px, 20px rgba(0,0,0,0.1);
+	padding:10px;
+	border-radius:10px;
+	background:rgb(230, 245, 255);
+	height:600px;
+	color:black;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.wrapper .title-text{
+	display:flex;
+	width:100%;
+}
+.wrapper .title{
+	width:100%;
+	font-size:35px;
+	font-weight:600;
+	text-align:center;
+	color:black;
+}
+.field label{
+	font-size:20px;
+	padding-top:15px;
+	margin-bottom:10px;
+	font-weight:Italic;
+	color:black;
+}
+.a1{
+	padding-left:115px;
+	color:black;
+}
+input[type=password] {
+	width: 470px;   
+	margin-bottom:10px;
+	padding: 12px 20px;   
+	display: inline-block;      
+	box-sizing: border-box;   
+	background-color:white;
+	border:none;
+	cursor:pointer;
+	color:black;
+	font-weight:bold;
+	border-radius:5px;
+}
+input[type=text] {
+	width: 470px;   
+	margin-bottom:10px;
+	padding: 12px 20px;   
+	display: inline-block;      
+	box-sizing: border-box;   
+	background-color:white;
+	border:none;
+	cursor:pointer;
+	color:black;
+	font-weight:bold;
+	border-radius:5px;
+}
+.drop{
+	margin-bottom:10px;
+	margin-top:10px;
+	font-size:19px;
+	color:gray;
+}
+.drop .a{
+	font-size:20px;
+	padding-top:15px;
+	margin-bottom:10px;
+	font-weight:Italic;
+	color:black;
+	padding-right:5px;
+}
+.b{
+	background-color:white;
+	color:black;
+	border-radius:5px;
+}
+.signin{
+	margin-left:200px;
+}
+input[type=submit]{
+	padding:10px;
+	font-size:15px;
+	font-weight:bold;
+	border-radius:10px;
+	background-color:black;
+	color:white;
+	padding-left:15px;
+	padding-right:15px;
+}
+.line{
+	margin:25px;
+	display: flex;
+	flex-direction: row;
+	color:gray;
+}
+.line:before,
+.line:after {
+	content: "";
+	flex: 1 1;
+	border-bottom: 1px solid #000;
+	margin: 4px;
+}
+.logo{
+	display:flex;
+	padding:2px 3px;
+	justify-content:center;
+}
+.logo img{
+	width:20px;
+	height:20px;
+	margin:5px;
+}

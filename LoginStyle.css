@@ -8,11 +8,11 @@ html{
 }
 .box{
 	width:1100px;
-	height:600px;
+	height:550px;
 	background-color:white;
 	margin:0 auto;
-	top:10%;
-	margin-bottom:10px;
+	top:5%;
+	margin-bottom:0;
 	position:relative;
 	border-radius:25px;
 	background-position: center;
@@ -25,12 +25,10 @@ body{
 }
 .fullpage{
 	background-image: url("images/finalLogin.png"); 
-	height: 800px;
-	width: 1300px;
+	height: 630px;
+	width: 1350px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-left:20px;
-	margin-right:20px;	
 	object-fit:cover;
 }
 .row:after {
@@ -49,7 +47,7 @@ body{
 	padding-top:15px;
 	padding-bottom:15px;
 	padding-left:15px;
-	height:555px;
+	height:500px;
 	width:500px
 }
 .column{
@@ -68,7 +66,7 @@ body{
 }
 input[type=text] {   
 	width: 450px;   
-	margin: 15px 30px;  
+	margin-left:4px;
 	padding: 12px 20px;   
 	display: inline-block;      
 	box-sizing: border-box;   
@@ -78,7 +76,7 @@ input[type=text] {
 }  
 input[type=password] {
 	width: 450px;   
-	margin: 15px 30px;  
+	margin-left:4px;  
 	padding: 12px 20px;   
 	display: inline-block;      
 	box-sizing: border-box;   
@@ -88,13 +86,15 @@ input[type=password] {
 }
 .field label{
 	font-size:25px;
+	margin:10px;
 }
 .pass-Link a{
 	float:right;
-	padding-right:35px;
+	padding-right:60px;
 	text-decoration:none;
 	font-size:18px;
 	color:rgb(0, 77, 37);
+	margin-top:20px;
 }
 input[type=submit]{
 	padding-left:30px;
@@ -105,9 +105,10 @@ input[type=submit]{
 	background-color:blue;
 	color:white;
 	border-radius:10px;
-	margin-top:30px;
+	margin-top:50px;
 	font-size:20px;
 	font-family:Verdana;
+	margin-left:200px;
 }
 .line{
 	margin:30px;
@@ -120,7 +121,7 @@ input[type=submit]{
 	content: "";
 	flex: 1 1;
 	border-bottom: 1px solid #000;
-	margin: 15px;
+	margin: 10px;
 }
 .logo{
 	display:flex;
@@ -134,7 +135,7 @@ input[type=submit]{
 }
 .sign-up-link{
 	text-align:center;
-	margin:20px;
+	margin:15px;
 	font-size:20px;
 }
 .sign-up-link a{
